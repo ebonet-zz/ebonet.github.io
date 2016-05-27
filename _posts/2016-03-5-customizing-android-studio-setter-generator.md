@@ -1,15 +1,17 @@
 ---
 layout: post
 title:  "Customizing Android Studio Setter Generator to create Chainable Setters"
-category: android
+category: quicktips
+tags:
+  - Android
+  - Tools
 ---
 
 <!-- more -->
 
 I like chainable methods. I really do. Just look at the builder pattern, how sexy is that.
 
-For me, no methods should return void. Void is useless. You can do nothing with void.
-Instead, why not make the function return the object instead of void. This way, instead of:
+For me, no methods should return void. Void is useless. You can do nothing with void. Instead, why not make the function return the object instead of void. This way, instead of:
 
 ```java
 
@@ -25,12 +27,9 @@ We could have:
   Obj = new Obj().setProp1(prop1).setProp2(prop2).setProp3(prop3);
 ```
 
-Creating getters/setters is a really boring process, and luckily IntelliJ/Android Studio
-generate those automagically. But returning *void*. Happily, those guys at JetBrains
-made everything in their platforms customizable, even code generation. So let's change that.
+Creating getters/setters is a really boring process, and luckily IntelliJ/Android Studio generate those automagically. But returning *void*. Happily, those guys at JetBrains made everything in their platforms customizable, even code generation. So let's change that.
 
-Opening the `Insert | Setters` dialog, you can select the template of the setter, and by the right
-you have `...`. Click that.
+Opening the `Insert | Setters` dialog, you can select the template of the setter, and by the right you have `...`. Click that.
 
 Check out the `IntelliJ Default` template:
 
@@ -52,9 +51,7 @@ $field.name = $paramName;
 }
 ```
 
-We need to change do things to create chainable setters from the default setter:
-change the return type and add a `return this` statement. Create a new template
- called *Chainable* add the following code:
+We need to change do things to create chainable setters from the default setter: change the return type and add a `return this` statement. Create a new template called *Chainable* add the following code:
 
 ```
 #set($paramName = $helper.getParamName($field, $project))
@@ -76,5 +73,4 @@ $class.name set$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitize
 }
 ```
 
-Now when creating setters, you can choose `Chainable` from the template dropdown.
-Easy as that!
+Now when creating setters, you can choose `Chainable` from the template dropdown. Easy as that!

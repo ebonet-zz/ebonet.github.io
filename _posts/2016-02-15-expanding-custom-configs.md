@@ -1,15 +1,14 @@
 ---
 layout: post
 title:  "Expanding custom config files in Rails"
-category: rails
-tag: TIL
+category: quicktips
+tag:
+  - Ruby on Rails
 # bigimg: /img/path.jpg
 ---
 
-I had to access an API from my rails API, where I can run it on localhost and
-a staging scenario for testing. I needed a place to properly store the credentials,
-and a `YAML` is an elegant solution. Digging around, I found a solution that works
-really well:
+I had to access an API from my rails API, where I can run it on localhost and a staging scenario for testing. I needed a place to properly store the credentials,
+and a `YAML` is an elegant solution. Digging around, I found a solution that works really well:
 
 
 <!-- more -->

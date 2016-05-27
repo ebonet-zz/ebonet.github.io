@@ -7,7 +7,10 @@ conferences:
     date: 2016/04/22
   - name: TDC 2016 Floripa - Big Data Track
     date: 2016/05/11
-category: Data Science
+tags:
+  - Data Science
+  - Python
+  - R
 ---
 
 Python and R are fundamental languages for a Data Scientist. There is a war to decide which one is the best, and the truth is that none of them are. In this presentation, we compare both languages under the same problem, evaluating each language characteristics and when to use each one.

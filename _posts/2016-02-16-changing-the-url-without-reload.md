@@ -1,23 +1,20 @@
 ---
 layout: post
 title:  "Changing the URL without reloading the page"
-category: javascript
-tag: TIL
+category: quicktips
+tag:
+  - Javascript
+  - Front End
 ---
 
-
-
-<!-- more -->
-
-To accomplish this, we use the html5 history API:
+I was working with a project that used a combination of server side rendering and updates via API. I wanted to have a behavior similar to SPA's, where the user clicks a button, data and url are changed without reloading the page, in a way that the url truly represents the state of the screen. To accomplish this, we can use the html5 history API:
 
 ``` coffeescript
 update_url = (url,state)->
     window.history.pushState(state,"", url);
 ```
 
-I am using coffeescript, but you would call window.history exactly the same way
-in JS. You can pass an object storing state variables, so that in case the user
+I am using coffeescript, but you would call window.history exactly the same way in JS. You can pass an object storing state variables, so that in case the user
 presses the back button the previous screen can be restored properly.
 
 To handle back presses, we answer to the popstate event:

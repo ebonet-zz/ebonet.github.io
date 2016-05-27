@@ -1,0 +1,32 @@
+---
+layout: page
+title: Talks
+comments: false
+---
+
+
+<div class="posts-list">
+  {% for talk in site.talks %}
+  <article class="post-preview">
+    <a href="{{ talk.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ talk.title }}</h2>
+
+	  {% if talk.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ talk.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
+
+    <p class="post-meta">
+      Posted on {{ talk.date | date: "%B %-d, %Y" }}
+    </p>
+
+    <div class="post-entry">
+      {{ talk.content | truncatewords: 50 | strip_html | xml_escape}}
+	  <a href="{{ talk.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+    </div>
+
+   </article>
+  {% endfor %}
+</div>

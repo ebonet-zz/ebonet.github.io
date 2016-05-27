@@ -2,6 +2,7 @@
 title: Python e R
 subtitle: Uma comparação prática
 slideurl: "//www.slideshare.net/slideshow/embed_code/key/40JCpMqiDGK4bs"
+date: 2016/04/22
 conferences:
   - name: 3º Floripa Data Science Meetup
     date: 2016/04/22

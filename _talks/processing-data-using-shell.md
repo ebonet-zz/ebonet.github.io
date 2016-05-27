@@ -1,7 +1,8 @@
 ---
 title: Processing Data using the shell
 slideurl: "//www.slideshare.net/slideshow/embed_code/key/I0k6trDAHJfFQH"
-conference:
+date: 2015/07/09
+conferences:
   - name: 1º Floripa Data Science Meetup
     date: 2015/07/09
 tags:

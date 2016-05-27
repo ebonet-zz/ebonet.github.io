@@ -19,7 +19,19 @@ comments: false
     </a>
 
     <p class="post-meta">
-      Posted on {{ talk.date | date: "%B %-d, %Y" }}
+
+      Presented at
+
+      {% for conf in talk.conferences %}
+
+        {{conf.name}} on {{ conf.date| date: "%B %-d, %Y"}}
+        {% if !(forloop.last) %}
+          ,
+        {% endif %}
+      {% endfor %}
+
+<!--
+      Posted on {{ talk.date | date: "%B %-d, %Y" }} -->
     </p>
 
     <div class="post-entry">

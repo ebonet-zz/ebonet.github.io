@@ -1,7 +1,8 @@
 ---
 title: A Gradle Story
 slideurl: "//www.slideshare.net/slideshow/embed_code/key/kECVdxcLAf4DWh"
-conference:
+date: 2016/05/13
+conferences:
   - name: TDC 2016 Floripa - Android Track
     date: 2016/05/13
 tags:

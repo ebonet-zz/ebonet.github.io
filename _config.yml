@@ -104,6 +104,7 @@ defaults:
     values:
       layout: "page"
       show-avatar: true
+      comments: false
   -
     scope:
       path: "" # all files

@@ -6,6 +6,7 @@ tags:
   - Ionic
   - Android
 language: en
+fb-img: "/img/ionic-dev-tools.png"
 ---
 
 Ok, I don't know how I didn't discover this earlier. I've been using Ionic for 2 years now and never (I mean, NEVER) came across this amazing tool throughout this whole time:

@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://ebonet.github.io"
+url: "http://ebonet.me"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -23,7 +23,7 @@ description: Chronicles of a learner
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "http://ebonet.github.io"
+  Home: ""
   About Me: "aboutme"
   Talks: "talks"
 
@@ -48,6 +48,7 @@ author:
   github: ebonet    # eg. daattali
   twitter: ef_bonet   # eg. daattali
   linkedin: in/eduardobonet  # eg. "pub/dean-attali/8/946/143"
+  quora: Eduardo-Bonet  # eg. "pub/dean-attali/8/946/143"
 
 # Select which links to show in the footer
 footer-links-active:
@@ -66,7 +67,7 @@ footer-links-active:
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: ebonetgithubio
+disqus: ebonetme
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-33222139-1"

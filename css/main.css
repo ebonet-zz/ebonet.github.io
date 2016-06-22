@@ -7,7 +7,8 @@ body {
   font-size: 16px;
   color: #404040;
   position: relative;
-  background: #FFF;
+  background: #F6F6F6;
+  line-height: 1.6;
 }
 p {
   line-height: 1.5;
@@ -156,6 +157,10 @@ img {
   display: block;
 }
 
+.navbar-custom.top-nav-short {
+  visibility: visible;
+}
+
 .navbar-custom.top-nav-short .avatar-container{
   opacity: 0;
 }
@@ -275,7 +280,7 @@ footer .theme-by {
 
 .post-preview {
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #CCC;
 }
 
 @media only screen and (min-width: 768px) {
@@ -586,4 +591,16 @@ table tr td :last-child {
   margin:0;
   margin-top: 5px;
   float: left;
+}
+
+.container {
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+
+  max-width: 750px !important;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }

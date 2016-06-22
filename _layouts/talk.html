@@ -6,7 +6,7 @@ layout: base
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div style="width: 100%">
 
         {% for conf in page.conferences %}
         <p class="talk-meta">{{ conf.date | date: "%B %-d, %Y" }} - {{conf.name}} </p>

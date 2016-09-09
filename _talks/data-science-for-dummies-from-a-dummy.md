@@ -2,10 +2,13 @@
 title: Data Science for Dummies from a Dummie
 slideurl:
   - "//www.slideshare.net/slideshow/embed_code/key/ECr2uPdKkRkwkU"
-date: 2016/05/03
+date: 2016/07/09
 conferences:
   - name: 3º Semana Acadêmica de Automação e Controle
     date: 2016/05/03
+  - name: TDC 2016 São Paulo - Trilha Data Science
+    date: 2016/07/09
+
 tags:
   - Data Science
 ---

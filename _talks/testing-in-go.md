@@ -4,7 +4,7 @@ subtitle: Testes em Go
 slideurl:
   - "//www.slideshare.net/slideshow/embed_code/key/wVBN7xmeqQBpvQ"
   - "//www.slideshare.net/slideshow/embed_code/key/nO9uOJofBgV0TZ"
-date: 2016/04/22
+date: 2016/07/09
 conferences:
   - name: TDC 2016 São Paulo - Trilha Golang
     date: 2016/07/09

@@ -1,7 +1,8 @@
 ---
 title: Using Java 8 on Android
 subtitle: Usando Java 8 no Android
-share-img: "/img/ionic-dev-tools.png"
+share-img: "/img/using-java8-on-android-title.png"
+fb-img: "/img/using-java8-on-android-title.png"
 slideurl:
   - "//www.slideshare.net/slideshow/embed_code/key/CChXRok8WxRWYS"
   - "//www.slideshare.net/slideshow/embed_code/key/2hDLXodHd2Yu5g"
